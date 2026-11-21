@@ -20,4 +20,4 @@ git push origin main
 ## Fase 3 Analisis
 - Risk: High. Execution involves real mainnet assets.
 - Observation: Agent identity registered on-chain (ERC-8004).
-- UI/UX: [Tambahkan catatan jika ada bug/error UI saat mint]
+- UI/UX: CLI execution failed (execution reverted). Manual fallback via Web UI succeeded.
