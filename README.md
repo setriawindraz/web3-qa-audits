@@ -1,66 +1,19 @@
-## Foundry
+# Web3 QA Audits
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Professional Web3 QA testing portfolio. Focus on technical bug isolation, RPC stability, and smart contract interaction.
 
-Foundry consists of:
+## QA Reports
 
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- [BOT Chain Testnet](QA-REPORT-BOTChain.md)
+- [TermiX](QA-REPORT-TermiX.md)
+- [SimpleChain](QA-REPORT-SimpleChain.md)
+- [DogeOS](QA-REPORT-DogeOS.md)
+- [RocX](QA-REPORT-RocX.md)
+- [LitVM](QA-REPORT-LitVM.md)
 
-## Documentation
+## Methodology
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+1. Setup (Environment & Wallet)
+2. Execution (Deploy, cast send/call, UI interaction)
+3. Analysis (Bug isolation, RPC checks)
+4. Documentation (Markdown reports)
