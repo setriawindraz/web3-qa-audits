@@ -19,7 +19,3 @@
   3. Click the generated transaction link
 - Actual Result: Browser shows DNS_PROBE_POSSIBLE for explorer.flop.network
 - Expected Result: Transaction details page loads successfully.
-
-## X Reply Draft (English + ID)
-Found a P1 bug on @flop_labs Devnet. Faucet works smoothly, but the explorer link throws DNS_PROBE_POSSIBLE. Cannot verify tx on-chain. DNS config issue on explorer.flop.network. 
-(ID: Bug P1 di Devnet @flop_labs. Faucet lancar, tapi link explorer error DNS. Tx tidak bisa diverifikasi.)
