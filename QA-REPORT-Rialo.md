@@ -1,20 +1,27 @@
-# Rialo QA Report
+# QA Report: Rialo Playground (AGP)
 
-**Tester:** @setriawindra_z (iset)
-**Status:** Phase 1 Setup (Mobile Session)
-**Date:** November 23, 2026
+**Tester:** @setriawindra_z
+**Date:** 23 Nov 2026
+**Environment:** MacOS, Node.js v20.20.1, Terminal
+**Target:** Rialo Playground / Agent Grand Prix (AGP)
 
-## Phase 1: Setup & Documentation
-- [x] Reviewed Rialo documentation.
-- [x] Identified RPC endpoint and network details.
-- [ ] Wallet funded with testnet tokens.
-- [ ] Environment variables configured.
+## Scope of Testing
+- Environment: Web UI, Terminal (MCP Remote)
+- Action: Login, AGP Wallet provisioning, MCP Agent connection.
 
-## Phase 2: Execution
-*Pending Mac session for `cast send` and `cast call`.*
+## Test Results & Findings
 
-## Phase 3: Analysis
-*Pending execution.*
+### 1. AGP Race Wallet Provisioning (Failed)
+- **Action:** Logged into AGP dashboard for the first time.
+- **Result:** Race Wallet status is FAILED. Balance is 0.00 AGP.
+- **Observation:** UI provides no error message or retry button. User is blocked from creating an agent or entering a race.
 
-## Phase 4: Documentation
-*This report is in progress.*
+### 2. MCP Agent Connection (Critical Bug Found)
+- **Action:** Copied the official MCP config from the dashboard and ran it in Mac Terminal.
+- **Command:** `npx -y mcp-remote https://api.agp.onlatch.com/track/mcp --header "Authorization: Bearer [TOKEN]"`
+- **Result:** `Fatal error: RegistrationRejectedError: Dynamic Client Registration rejected (HTTP 404)`
+- **Analysis:** The Rialo backend server fails to handle the dynamic client registration (`/register`) required by the `mcp-remote` package. The endpoint returns `404 Not Found`. This makes the entire AGP feature inaccessible for users.
+
+## Recommendations for Dev Team
+1. Fix the wallet provisioning system so new users get a working AGP wallet automatically.
+2. Fix the MCP server backend. Ensure the `/register` endpoint is implemented and accessible for the `mcp-remote` client. The current setup is broken out of the box.
