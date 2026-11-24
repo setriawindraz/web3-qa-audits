@@ -4,4 +4,4 @@ Testnet investigation focused on RPC latency, baseline performance, and infrastr
 
 ## Findings
 
-- [01 - RPC Latency & Baseline Testing](findings/01-rpc-latency-baseline.md) (In Progress)
+- [01 - Devnet Explorer DNS Resolution Failure](findings/01-devnet-explorer-dns-failure.md) (P1 Infrastructure)
