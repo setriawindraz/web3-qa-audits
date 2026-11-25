@@ -1,8 +1,8 @@
 # Web3 QA Portfolio - Setria Windra Z
 
 Independent Web3 QA Tester based in Batam, Indonesia.
-X: https://x.com/setriawindra_z
-LinkedIn: https://linkedin.com/in/setriawindraz
+
+[![X (Twitter)](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/setriawindra_z) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/setriawindraz)
 
 ## Core Skills
 - Protocol & API Testing (RPC, JSON-RPC, cURL, Postman)
