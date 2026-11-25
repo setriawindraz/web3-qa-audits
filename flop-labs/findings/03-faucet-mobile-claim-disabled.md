@@ -18,7 +18,8 @@ The "Request 10 FLOP" button should become active (clickable) once the wallet is
 The "Request 10 FLOP" button remains permanently disabled (unclickable), blocking the claim process entirely. 
 
 ## Evidence
-- **Screenshot:** [Attach screenshot showing connected wallet but disabled button]
+- **Screenshot:** 
+![Faucet Disabled](https://github.com/user-attachments/assets/8313e5c3-caa3-4681-a47c-016f1aa168f7)
 - **Status:** TBD
 
 ## Reproducibility
