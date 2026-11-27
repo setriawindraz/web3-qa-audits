@@ -11,8 +11,7 @@
 3. Observe the HTTP response returned.
 
 ## Expected Result
-According to official Rialo documentation, requests that do not match a mount path should return HTTP 404 without falling back to any upstream.
-
+According to a statement from the Rialo team, requests that do not match a mount path should return HTTP 404 without falling back to any upstream.
 ## Actual Result
 The endpoint returns HTTP 404. No upstream request execution occurs. No credential leakage detected.
 
