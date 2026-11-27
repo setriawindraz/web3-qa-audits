@@ -24,3 +24,5 @@ The endpoint returns HTTP 404. No upstream request execution occurs. No credenti
 
 ## Duplicate Check
 Checked: Yes. No public issues related to this, as it is a security feature, not a bug.
+
+Re-verified: 2026-11-27
