@@ -18,7 +18,7 @@ If the polling times out, the SDK should still return the `depositTxHash` so the
 According to the documentation, if the timeout is reached, the function returns an `error` object and `data` will be `null`. This deprives the user of the `depositTxHash` in the return value, leaving the transaction state ambiguous (funds appear stuck).
 
 ## Evidence
-- **Log/Docs:** https://docs.rhino.fi/sdk/bridging
+- **Log/Docs:** https://docs.rhino.fi/sdk/bridge-functions/bridge
 - **Quote:** "By default the polling will be aborted after a default timeout of 10 minutes."
 - **Status:** Not reported.
 
