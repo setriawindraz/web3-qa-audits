@@ -25,7 +25,7 @@ DApp fails to detect Rabby entirely. Clicking MetaMask forces a "Please install 
 - **RPC Verification (curl+jq):** N/A
 - **Tx Hash/Log:** N/A
 - **Explorer Link/Status:** N/A
-- **X Thread:** (TBD)
+- **X Thread:** https://x.com/setriawindra_z/status/2126729305019584799
 - **Status:** Draft
 
 **Reproducibility:**
