@@ -26,7 +26,7 @@ The UI displays "processing response error". Inspecting the browser Console reve
 - **RPC Verification (curl+jq):** Tx `0x4d94133ca4af29bf5da62b84ffb873cbf65dd6eab022ded6a013476895b4c945` returns `status: 0x1` (Success) on LitVM.
 - **Tx Hash/Log:** `0x4d94133ca4af29bf5da62b84ffb873cbf65dd6eab022ded6a013476895b4c945`
 - **Explorer Link/Status:** `https://explorer.testnet.liteforge.zeeve.net/tx/0x4d94133ca4af29bf5da62b84ffb873cbf65dd6eab022ded6a013476895b4c945` (SUCCESS).
-- **X Thread:** [Link to be updated]
+- **X Thread:** https://x.com/setriawindra_z/status/2126638994960285947
 - **Status:** Draft
 
 **Reproducibility:**
